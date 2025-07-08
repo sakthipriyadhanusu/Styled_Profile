@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Profile</title>
+  <style>
+    /* Global styles */
+    body {
+      background: linear-gradient(to right, #e0f7fa, #f1f8e9); /* light teal to light green */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .profile-card {
+      background-color: #fefefe; /* subtle off-white */
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 30px 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background: #f1f8e9; /* light soft green card */
+    }
+
+    .profile-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      font-size: 2em;
+      color: #ef338b; /* dark green */
+      margin: 10px 0;
+    }
+
+    h2 {
+      font-size: 1.2em;
+      color: #8e3873; /* green accent */
+      margin: 5px 0 20px 0;
+    }
+
+    .profile-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px auto;
+      object-fit: cover;
+      border: 4px solid #a066bb; /* green border */
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #ccc;
+      margin: 20px 0;
+    }
+
+    .bio {
+      background-color: #ffffff; /* white bio section for contrast */
+      padding: 20px;
+      line-height: 1.8;
+      border-radius: 8px;
+      color: #333;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 480px) {
+      .profile-card {
+        margin: 20px;
+        padding: 20px 15px;
+      }
+
+      .profile-card img {
+        width: 120px;
+        height: 120px;
+      }
+
+      h1 {
+        font-size: 1.7em;
+      }
+
+      h2 {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <h1>SAKTHI PRIYA D</h1>
+    <h2>Student | Web developer</h2>
+
+    <img src="profile.jpeg" alt="Profile Photo" width="150" height="150">
+
+    <hr>
+
+    <section class="bio">
+      <p>Hello! I’m Sakthi Priya D, a student at Saveetha Engineering College pursuing a Bachelor's degree in Computer Science and Engineering. I enjoy coding, designing, and working on full-stack web projects. I’m passionate about learning new technologies and building creative solutions.</p>
+      <p>Recently, I completed an internship in Machine Learning, where I worked on predictive models, data analysis, and gained hands-on experience with real-world AI applications. This experience strengthened my interest in AI, Data Science, and innovative tech solutions. Also done a recent project in full stack development in medicine recommendation system.</p>
+    </section>
+  </div>
+</body>
+</html>
